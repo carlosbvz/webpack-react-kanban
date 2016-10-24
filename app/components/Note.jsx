@@ -1,3 +1,3 @@
 import React from 'react';
 
-export defautl() => <div>Learn Webpack</div>;
+export default () => <div>Learn Webpack and React + Hot loading  </div> ;

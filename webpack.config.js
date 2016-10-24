@@ -15,6 +15,9 @@ const PATHS 	= {
 	app: 	path.join(__dirname,'app'),
 	build: 	path.join(__dirname,'build')
 };
+
+process.env.BABEL_ENV = 'start';
+
 const common = {
 	entry: {
 		app: PATHS.app,
